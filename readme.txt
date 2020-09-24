@@ -1,6 +1,6 @@
 === WooCommerce Order Delivery ===
 
-*** Updating instruction ***
+Updating instruction
 
 Changed Path:
 - /includes/admin/fields/class-wc-od-admin-field-delivery-days.php
