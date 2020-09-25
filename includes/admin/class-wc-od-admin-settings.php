@@ -85,7 +85,7 @@ if ( ! class_exists( 'WC_OD_Admin_Settings' ) ) {
 		{
 			$options = get_option( 'wp_banner_settings_fields' );
 
-			echo '<pre>testic', var_dump($options), '</pre>';
+			echo '<pre>', var_dump($options), '</pre>';
 		}
 
 		/**
