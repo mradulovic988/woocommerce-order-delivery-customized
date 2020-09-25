@@ -1,7 +1,7 @@
 === WooCommerce Order Delivery ===
 Contributors: upss1988
 
-Updating instruction
+Documentation ( Depending of current version of the plugin )
 
 Changed Path:
 - /includes/admin/fields/class-wc-od-admin-field-delivery-days.php
