@@ -84,7 +84,7 @@ p.form-field._delivery_time_frame_field {
 <!-- CONTRIBUTING -->
 ## Contributing
 
-* upss1988
+<a href="https://profiles.wordpress.org/upss1988/" target="_blank">- upss1988</a>
 
 
 <!-- LICENSE -->
