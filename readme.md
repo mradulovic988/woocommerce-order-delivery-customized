@@ -3,7 +3,7 @@
 <p align="center">
   <h1 align="center">WooCommerce Order Delivery - Customized</h1>  
   <p align="left">
-    Documentation ( Depending of current version of the plugin )
+    <b>Documentation ( Depending of current version of the plugin )</b>
     <br />
   </p>
 </p>
