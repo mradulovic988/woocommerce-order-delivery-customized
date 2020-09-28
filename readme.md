@@ -9,7 +9,7 @@
     <br />
   </p>
   
-  <p align="center">
+  <p align="left">
     Documentation ( Depending of current version of the plugin )
     <br />
   </p>
