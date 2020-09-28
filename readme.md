@@ -1,13 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h1 align="center">WooCommerce Order Delivery - Customized</h1>
-
-  <p align="left">
-    * Contributors: upss1988
-    <br />
-  </p>
-  
+  <h1 align="center">WooCommerce Order Delivery - Customized</h1>  
   <p align="left">
     Documentation ( Depending of current version of the plugin )
     <br />
