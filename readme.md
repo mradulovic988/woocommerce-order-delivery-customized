@@ -20,8 +20,11 @@
 - p.form-field._delivery_time_frame_field { display: none; }
 
 
-<!-- /includes/admin/fields/class-wc-od-admin-field-delivery-days.php -->
-## /includes/admin/fields/class-wc-od-admin-field-delivery-days.php
+<!-- class-wc-od-admin-field-delivery-days.php -->
+## class-wc-od-admin-field-delivery-days.php
+
+* Path: /includes/admin/fields/class-wc-od-admin-field-delivery-days.php
+
 Remove this part of code on #34 line:
 ```
 printf(
@@ -31,24 +34,33 @@ printf(
 );
 ```
 
-<!-- /templates/emails/email-delivery-date.php -->
-## /templates/emails/email-delivery-date.php
+<!-- email-delivery-date.php -->
+## email-delivery-date.php
+
+* Path: /templates/emails/email-delivery-date.php
+
 Remove this part of code on #40 line:
 ```
 /* translators: %s: delivery time frame */
 printf( wp_kses_post( __( 'Time frame: %s', 'woocommerce-order-delivery' ) ), '<strong>' . wc_od_time_frame_to_string( $delivery_time_frame ) . '</strong>' ); // WPCS: XSS ok.
 ```
 
-<!-- /templates/order/delivery-date.php -->
-## /templates/order/delivery-date.php
+<!-- delivery-date.php -->
+## delivery-date.php
+
+* Path: /templates/order/delivery-date.php
+
 Remove this part of code on #40 line:
 ```
 /* translators: %s: delivery time frame */
 printf( wp_kses_post( __( 'Time frame: %s', 'woocommerce-order-delivery' ) ), '<strong>' . wc_od_time_frame_to_string( $delivery_time_frame ) . '</strong>' ); // WPCS: XSS ok.
 ```
 
-<!-- /includes/admin/class-wc-od-admin-settings.php -->
-## /includes/admin/class-wc-od-admin-settings.php
+<!-- class-wc-od-admin-settings.php -->
+## class-wc-od-admin-settings.php
+
+* Path: /includes/admin/class-wc-od-admin-settings.php
+
 Customize object inside get_settings() method
 
 array with id wc_od_maybe_prefix( 'checkout_delivery_option' )
@@ -57,8 +69,11 @@ array with id wc_od_maybe_prefix( 'checkout_delivery_option' )
 'disable' => __( 'Disable checkout options', 'woocommerce-order-delivery' ),
 ```
 
-<!-- /templates/checkout/form-delivery-date.php -->
-## /templates/checkout/form-delivery-date.php
+<!-- form-delivery-date.php -->
+## form-delivery-date.php
+
+* Path: /templates/checkout/form-delivery-date.php
+
 Add below condition above the `<?php if ( 'calendar' === $delivery_option ) : ?>`
 
 ```
