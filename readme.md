@@ -1,7 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-
   <h1 align="center">WooCommerce Order Delivery - Customized</h1>
 
   <p align="left">
